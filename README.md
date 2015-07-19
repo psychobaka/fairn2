@@ -1,5 +1,5 @@
 # Fair n<sup>2</sup>
-This is a program I'm writing to track finances amongst myself and my housemates.
+This is a program I'm writing to track finances amongst myself and my housemates.  Could expand it to a website.
 
 ## Status
 This is just an empty repository right now.
@@ -9,7 +9,9 @@ GNU GPL v3 (http://www.gnu.org/licenses/#GPL)
 
 ## Installation
 This project requires:
- - Python 3.4 (requires "enum" and implicit namespace packages CAUSE THEY'RE AWESOME)
+ - Python 3.3 or greater (requires "enum" and implicit namespace packages CAUSE THEY'RE AWESOME)
+Optional:
+ - Sphinx for generating API documentation.
 
 ## Usage
 
