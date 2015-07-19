@@ -9,7 +9,7 @@ GNU GPL v3 (http://www.gnu.org/licenses/#GPL)
 
 ## Installation
 This project requires:
- - Python 3.3 or greater (requires "enum" and implicit namespace packages CAUSE THEY'RE AWESOME)
+ - Python 3.4 or greater (requires implicit namespace packages and "pathlib" CAUSE THEY'RE AWESOME)
 Optional:
  - Sphinx for generating API documentation.
 
