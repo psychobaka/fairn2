@@ -1,0 +1,3 @@
+[submodule "lib/pydefcello"]
+	path = lib/pydefcello
+	url = https://github.com/DefCello/pydefcello.git

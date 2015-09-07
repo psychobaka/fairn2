@@ -8,10 +8,10 @@ This is just an empty repository right now.
 GNU GPL v3 (http://www.gnu.org/licenses/#GPL)
 
 ## Installation
-###This project requires:
+### This project requires:
  - Python 3.4 or greater (requires implicit namespace packages and "pathlib" CAUSE THEY'RE AWESOME)
 
-###Optional:
+### Optional:
  - Sphinx for generating API documentation.
 
 ## Usage
