@@ -4,13 +4,18 @@ Executable for the program.  Initializes data structures as necessary and enters
 interface.
 """
 
+import _execommon
+_execommon.init()  #Do this before anything else!
+
+from _execommon import ROOTDIR
+from defcello.execommon import showError
+from pathlib import Path
 import argparse
 import json
 import os
 import shutil
 import sqlite3
 import sys
-from _execommon import ROOTDIR
 
 
 
@@ -21,10 +26,11 @@ class App:
 
   cfg = None  #: "dict" object with configuration data for this session.
 
-  def __init__(self, cfg=os.path.join(ROOTDIR, 'user', 'cfg.json')):
+  def __init__(self, cfg=ROOTDIR / 'user' / 'cfg.json')):
     """
     Initializes the operating environment.
-    :param cfg: String path to user config file.  May also be a "dict" object (useful for testing).
+    :param cfg: `pathlib.Path` to user config file.  May also be a "dict" object
+      (useful for testing).
     """
     _initCfg(cfg)
     _initDb()
@@ -44,6 +50,7 @@ class App:
     assert 'dbfile' in self.cfg, 'Configuration is missing "dbfile" entry!'
     self.db = sqlite3.connect(ROOTDIR, self.cfg['dbfile'])
 
+@showError
 def main(sysArgs=None):
   """
   Main method.
