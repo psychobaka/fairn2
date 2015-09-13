@@ -1,0 +1,3 @@
+[submodule "lib/PyYAUL"]
+	path = lib/PyYAUL
+	url = git@github.com:defcello/PyYAUL.Base.git
