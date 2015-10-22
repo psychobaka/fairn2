@@ -7,15 +7,15 @@ import _execommon
 _execommon.init()  #Do this before anything else!
 
 from _execommon import ROOTDIR
-from defcello.execommon import showError
-from defcello.unittest import runTestsIn
+from pyyaul.base.execommon import showError
+from pyyaul.base.unittest import runTestsIn
 
 
 
 
 @showError
 def main():
-  runTestsIn(ROOTDIR, ROOTDIR)
+  runTestsIn(ROOTDIR)
 
 if __name__ == '__main__':
   main()

@@ -18,7 +18,7 @@ def init():
   Initializes the project's execution environment.
   """
   #Make sure root directory is in the system path.
-  for s in (ROOTDIR, ROOTDIR / "lib" / "pydefcello"):
+  for s in (ROOTDIR, ROOTDIR / "lib" / "PyYAUL"):
     s = str(s)
     if s not in sys.path:
       sys.path.append(s)
