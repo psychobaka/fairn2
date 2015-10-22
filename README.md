@@ -2,14 +2,14 @@
 This is a program I'm writing to track finances amongst myself and my housemates.  Could expand it to a website.
 
 ## Status
-This is just an empty repository right now.
+Building the Python application framework.  It's taking a while, but it means future Python applications will be easier to kick off.
 
 ## License
 GNU GPL v3 (http://www.gnu.org/licenses/#GPL)
 
 ## Installation
 ### This project requires:
- - Python 3.4 or greater (requires implicit namespace packages and "pathlib" CAUSE THEY'RE AWESOME)
+ - Python 3.5 or greater
 
 ### Optional:
  - Sphinx for generating API documentation.
