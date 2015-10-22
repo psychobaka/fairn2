@@ -10,6 +10,7 @@ GNU GPL v3 (http://www.gnu.org/licenses/#GPL)
 ## Installation
 ### This project requires:
  - Python 3.5 or greater
+ - PyMongo 3.1rc0 or equivalent version
 
 ### Optional:
  - Sphinx for generating API documentation.
