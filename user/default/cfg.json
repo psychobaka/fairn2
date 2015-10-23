@@ -1,3 +1,6 @@
 {
-  "dbfile": "user/data.pdb",
+  "db": {
+    "type": "MongoDB",
+    "addr": "mongodb://localhost:27017/"
+  }
 }

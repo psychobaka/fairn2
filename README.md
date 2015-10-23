@@ -1,8 +1,8 @@
-# Fair n<sup>2</sup>
+# Fair'n<sup>2</sup>
 This is a program I'm writing to track finances amongst myself and my housemates.  Could expand it to a website.
 
 ## Status
-Building the Python application framework.  It's taking a while, but it means future Python applications will be easier to kick off.
+Framework done.  Working out the software design in the Wiki.  Feel free to check it out!
 
 ## License
 GNU GPL v3 (http://www.gnu.org/licenses/#GPL)
