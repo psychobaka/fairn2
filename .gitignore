@@ -1,3 +1,7 @@
+# User files
+user/cfg.json
+user/default/mysqlmodel.mwb.bak
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
@@ -54,6 +58,3 @@ docs/_build/
 
 # PyBuilder
 target/
-
-# User files
-user/cfg.json
