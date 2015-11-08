@@ -13,12 +13,16 @@ GNU GPL v3 (http://www.gnu.org/licenses/#GPL)
 Installation
 ------------
 ### Required libraries:
+ - peewee
+   - https://pypi.python.org/pypi/peewee
+ - PyMySQL
+   - https://pypi.python.org/pypi/PyMySQL
  - Python 3.5 or equivalent
  - PyMongo 3.1rc0 or equivalent
  - MySQL Server 5.7 or equivalent
 
 ### Optional libraries:
- - Sphinx for generating API documentation.
+ - Sphinx for generating API documentation (untested!).
 
 ### Installation procedure:
 1. Install required libraries.
